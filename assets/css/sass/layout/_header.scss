@@ -1,0 +1,21 @@
+header {
+    position: fixed;
+    z-index: 1;
+    padding-top: 5px;
+    width: 100%;
+    min-height: 100px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    background: clr(gradient-1);
+    box-shadow: 0 8px 6px -6px red;
+
+    &_title {
+        justify-content: center;
+    }
+    .container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+   }
+}
