@@ -7,10 +7,9 @@ footer {
     height: 111px;
     border-top-left-radius: 1px;
     border-top-right-radius: 1px;
-
-    background-color: gray;
+    background-color: rgb(46, 44, 44);
     box-shadow: 0 -8px 8px -7px red;
-
+    
     .container {
         padding-left:20px;
         font-size: 18px;
@@ -22,4 +21,5 @@ footer {
 }
 #footer-return {
     padding-right: 45%;
+    color:white;
 }

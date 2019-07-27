@@ -5,7 +5,7 @@ html {
 body {
   margin: 0;
   font-size: 26px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: #ffffff;
   height: 100vh;
   -webkit-perspective: 1px;
@@ -43,7 +43,7 @@ body {
   width: 100vw;
   height: 100vh;
   padding-top: 20vh;
-  background-image: url("/assets/images/335663.png");
+  background-image: url("/assets/images/New.jpg");
   z-index: 2;
   position: relative;
 }
@@ -51,10 +51,36 @@ body {
 .content {
   margin: 0 auto;
   padding: 50px;
-  width: 50%;
-  background: #aaa;
-  color: #000000;
-  opacity: 0.5;
+  width: 100%;
+  background: #2e2c2c;
+  color: #fdfcfc;
+  opacity: 0.65;
+}
+
+#pagebreak {
+  margin: -205px 0px 0px 0px;
+  opacity: 1;
+}
+
+.content-bottom {
+  margin-bottom: 20%;
+  margin: 0 auto;
+  padding: 50px;
+  width: 100%;
+  background: #2e2c2c;
+  color: #fdfcfc;
+  opacity: 0.85;
+}
+
+.content-top {
+  justify-items: center;
+  margin: 0 auto;
+  padding: 50px;
+  padding-left: 30%;
+  width: 100%;
+  background: #2e2c2c;
+  color: #fdfcfc;
+  opacity: 0.65;
 }
 
 footer {
@@ -66,7 +92,7 @@ footer {
   height: 111px;
   border-top-left-radius: 1px;
   border-top-right-radius: 1px;
-  background-color: gray;
+  background-color: #2e2c2c;
   -webkit-box-shadow: 0 -8px 8px -7px red;
           box-shadow: 0 -8px 8px -7px red;
 }
@@ -88,6 +114,7 @@ footer .container {
 
 #footer-return {
   padding-right: 45%;
+  color: white;
 }
 
 header {
@@ -128,4 +155,23 @@ header .container {
   -webkit-box-flex: 50%;
       -ms-flex: 50%;
           flex: 50%;
+}
+
+#img {
+  margin-top: -2.5%;
+  margin-left: 0;
+}
+
+#img-text {
+  margin-left: 15%;
+  margin-right: 5%;
+  border: 5px black;
+}
+
+.fas {
+  color: white;
+}
+
+.fab {
+  color: white;
 }

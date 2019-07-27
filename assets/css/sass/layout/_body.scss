@@ -4,7 +4,7 @@ html{
 body {
     margin: 0;
     font-size: 26px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffffff;
     height: 100vh;
     perspective: 1px;
@@ -34,15 +34,39 @@ body {
     width: 100vw;
     height: 100vh;
     padding-top:20vh;
-    background-image: url("/assets/images/335663.png");
+    background-image: url("/assets/images/New.jpg");
     z-index: 2;
     position: relative;
 }
 .content {
     margin: 0 auto;
     padding: 50px;
-    width: 50%;
-    background: #aaa;
-    color: #000000;
-    opacity: 0.5;
+    width: 100%;
+    background: rgb(46, 44, 44);
+    color: #fdfcfc;
+    opacity: 0.65;
+}
+#pagebreak {
+        margin: -205px 0px 0px 0px;
+        opacity: 1;
+    }
+.content-bottom {
+    margin-bottom: 20%;
+    margin: 0 auto;
+    padding: 50px;
+    width: 100%;
+    background: rgb(46, 44, 44);
+    color: #fdfcfc;
+    opacity: 0.85;
+
+}
+.content-top {
+    justify-items: center;
+    margin: 0 auto;
+    padding: 50px;
+    padding-left:30%;
+    width: 100%;
+    background: rgb(46, 44, 44);
+    color: #fdfcfc;
+    opacity: 0.65;
 }
