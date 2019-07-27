@@ -10,9 +10,6 @@ header {
     background: clr(gradient-1);
     box-shadow: 0 8px 6px -6px red;
 
-    &_title {
-        justify-content: center;
-    }
     .container {
         display: flex;
         justify-content: space-between;
