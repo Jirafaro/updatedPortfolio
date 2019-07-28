@@ -9,6 +9,15 @@ header {
     background-color:rgb(46, 44, 44);
     opacity: .8;
     margin-left: 85%;
+    @include mq(bp(sm)) {
+            margin-bottom: 2em;
+        }
+
+        @include mq(bp(md)) {
+            margin: auto;
+            width:100%;
+           text-align: center;
+        }
     .container {
         display: flex;
         justify-content: space-between;

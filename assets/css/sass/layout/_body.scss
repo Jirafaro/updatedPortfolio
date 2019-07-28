@@ -11,6 +11,13 @@ body {
     transform-style: preserve-3d;
     overflow-x:hidden;
     overflow-y:auto;
+    @include mq(bp(sm)) {
+            margin-bottom: 2em;
+        }
+
+        @include mq(bp(md)) {
+            margin: auto;
+        }
 }
 .parallax-wrapper {
     width: 100vw;
@@ -18,6 +25,13 @@ body {
     padding-top:20vh;
     box-sizing: border-box;
     transform-style: preserve-3d;
+    @include mq(bp(sm)) {
+            margin-bottom: 2em;
+        }
+
+        @include mq(bp(md)) {
+            margin: auto;
+        }
 }
 .parallax-wrapper::before {
     content:"";
@@ -29,6 +43,13 @@ body {
     position: absolute;
     z-index: -1;
     transform: translateZ(-1px) scale(2);
+    @include mq(bp(sm)) {
+            margin-bottom: 2em;
+        }
+
+        @include mq(bp(md)) {
+            margin: auto;
+        }
 }
 .regular-wrapper {
     width: 100vw;
@@ -37,6 +58,13 @@ body {
     background-image: url("/assets/images/New.jpg");
     z-index: 2;
     position: relative;
+    @include mq(bp(sm)) {
+            margin-bottom: 2em;
+        }
+
+        @include mq(bp(md)) {
+            margin: auto;
+        }
 }
 .content {
     margin: 0 auto;
@@ -45,6 +73,13 @@ body {
     background: rgb(46, 44, 44);
     color: #fdfcfc;
     opacity: 0.65;
+    @include mq(bp(sm)) {
+            margin-bottom: 2em;
+        }
+
+        @include mq(bp(md)) {
+            margin: auto;
+        }
 }
 #pagebreak {
         margin: -205px 0px 0px 0px;
@@ -59,6 +94,13 @@ body {
     background: rgb(46, 44, 44);
     color: #fdfcfc;
     opacity: .98;
+    @include mq(bp(sm)) {
+            margin-bottom: 2em;
+        }
+
+        @include mq(bp(md)) {
+            margin: auto;
+        }
 }
 .content-top {
     justify-items: center;
@@ -69,8 +111,25 @@ body {
     background: rgb(46, 44, 44);
     color: #fdfcfc;
     opacity: 0.65;
+    @include mq(bp(sm)) {
+            margin-bottom: 2em;
+        }
+
+        @include mq(bp(md)) {
+            margin: auto;
+            width: 50%;
+        }
 }
 .your-class {
     columns: 3;
     margin: 0px 200px 0px 200px;
+    @include mq(bp(sm)) {
+            margin-bottom: 2em;
+        }
+
+        @include mq(bp(md)) {
+            margin: auto;
+            position: absolute;
+            width: 50%;
+        }
 }

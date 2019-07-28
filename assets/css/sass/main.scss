@@ -1,12 +1,12 @@
+
+//Base properties
+@import 'base/MQueries';
+@import 'base/function';
 //Page Layout
 @import 'layout/header';
 @import 'layout/body';
 @import 'layout/footer';
 
-
-//Base properties
-@import 'base/MQueries';
-@import 'base/function';
 
 //Components
 @import 'components/colums';

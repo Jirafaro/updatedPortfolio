@@ -11,6 +11,20 @@ header {
   margin-left: 85%;
 }
 
+@media screen and (max-width: 576px) {
+  header {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+  }
+}
+
 header .container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,6 +56,18 @@ body {
   overflow-y: auto;
 }
 
+@media screen and (max-width: 576px) {
+  body {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin: auto;
+  }
+}
+
 .parallax-wrapper {
   width: 100vw;
   height: 100vh;
@@ -50,6 +76,18 @@ body {
           box-sizing: border-box;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
+}
+
+@media screen and (max-width: 576px) {
+  .parallax-wrapper {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .parallax-wrapper {
+    margin: auto;
+  }
 }
 
 .parallax-wrapper::before {
@@ -65,6 +103,18 @@ body {
           transform: translateZ(-1px) scale(2);
 }
 
+@media screen and (max-width: 576px) {
+  .parallax-wrapper::before {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .parallax-wrapper::before {
+    margin: auto;
+  }
+}
+
 .regular-wrapper {
   width: 100vw;
   height: 100vh;
@@ -74,6 +124,18 @@ body {
   position: relative;
 }
 
+@media screen and (max-width: 576px) {
+  .regular-wrapper {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .regular-wrapper {
+    margin: auto;
+  }
+}
+
 .content {
   margin: 0 auto;
   padding: 50px;
@@ -81,6 +143,18 @@ body {
   background: #2e2c2c;
   color: #fdfcfc;
   opacity: 0.65;
+}
+
+@media screen and (max-width: 576px) {
+  .content {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content {
+    margin: auto;
+  }
 }
 
 #pagebreak {
@@ -99,6 +173,18 @@ body {
   opacity: .98;
 }
 
+@media screen and (max-width: 576px) {
+  .content-bottom {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-bottom {
+    margin: auto;
+  }
+}
+
 .content-top {
   justify-items: center;
   margin: 0 auto;
@@ -110,10 +196,37 @@ body {
   opacity: 0.65;
 }
 
+@media screen and (max-width: 576px) {
+  .content-top {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-top {
+    margin: auto;
+    width: 50%;
+  }
+}
+
 .your-class {
   -webkit-columns: 3;
           columns: 3;
   margin: 0px 200px 0px 200px;
+}
+
+@media screen and (max-width: 576px) {
+  .your-class {
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .your-class {
+    margin: auto;
+    position: absolute;
+    width: 50%;
+  }
 }
 
 footer {
