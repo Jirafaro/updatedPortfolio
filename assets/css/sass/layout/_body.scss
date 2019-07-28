@@ -51,14 +51,14 @@ body {
         opacity: 1;
     }
 .content-bottom {
-    margin-bottom: 20%;
+    position: relative;
+    margin-bottom: 40%;
     margin: 0 auto;
-    padding: 50px;
+    padding: 20px;
     width: 100%;
     background: rgb(46, 44, 44);
     color: #fdfcfc;
-    opacity: 0.85;
-
+    opacity: .98;
 }
 .content-top {
     justify-items: center;
@@ -69,4 +69,8 @@ body {
     background: rgb(46, 44, 44);
     color: #fdfcfc;
     opacity: 0.65;
+}
+.your-class {
+    columns: 3;
+    margin: 0px 200px 0px 200px;
 }

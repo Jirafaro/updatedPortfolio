@@ -1,3 +1,29 @@
+header {
+  position: fixed;
+  z-index: 1;
+  width: 14%;
+  padding-left: 20px;
+  min-height: 100px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #2e2c2c;
+  opacity: .8;
+  margin-left: 85%;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
 html {
   overflow: hidden;
 }
@@ -63,13 +89,14 @@ body {
 }
 
 .content-bottom {
-  margin-bottom: 20%;
+  position: relative;
+  margin-bottom: 40%;
   margin: 0 auto;
-  padding: 50px;
+  padding: 20px;
   width: 100%;
   background: #2e2c2c;
   color: #fdfcfc;
-  opacity: 0.85;
+  opacity: .98;
 }
 
 .content-top {
@@ -83,7 +110,14 @@ body {
   opacity: 0.65;
 }
 
+.your-class {
+  -webkit-columns: 3;
+          columns: 3;
+  margin: 0px 200px 0px 200px;
+}
+
 footer {
+  position: absolute;
   margin-top: auto;
   bottom: 0;
   left: 0;
@@ -115,32 +149,6 @@ footer .container {
 #footer-return {
   padding-right: 45%;
   color: white;
-}
-
-header {
-  position: fixed;
-  z-index: 1;
-  padding-top: 5px;
-  width: 100%;
-  min-height: 100px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  background: clr(gradient-1);
-  -webkit-box-shadow: 0 8px 6px -6px red;
-          box-shadow: 0 8px 6px -6px red;
-}
-
-header .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
 }
 
 .col1 {
