@@ -1,20 +1,27 @@
 header {
     position: fixed;
     z-index: 1;
-    width: 14%;
+    width: 100%;
+    text-align: center;
     padding-left:20px;
     min-height: 100px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color:rgb(46, 44, 44);
     opacity: .8;
-    margin-left: 85%;
-    @include mq(bp(sm)) {
-            margin-bottom: 2em;
+    @include mq(bp(xl)) {
+            margin: auto;
+            width:100%;
+           text-align: center;
+        }
+    @include mq(bp(lg)) {
+            margin: auto;
+            width:100%;
+           text-align: center;
         }
 
         @include mq(bp(md)) {
-            margin: auto;
+            margin:0 auto;
             width:100%;
            text-align: center;
         }

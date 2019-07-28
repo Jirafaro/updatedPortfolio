@@ -11,13 +11,6 @@ body {
     transform-style: preserve-3d;
     overflow-x:hidden;
     overflow-y:auto;
-    @include mq(bp(sm)) {
-            margin-bottom: 2em;
-        }
-
-        @include mq(bp(md)) {
-            margin: auto;
-        }
 }
 .parallax-wrapper {
     width: 100vw;
@@ -25,13 +18,6 @@ body {
     padding-top:20vh;
     box-sizing: border-box;
     transform-style: preserve-3d;
-    @include mq(bp(sm)) {
-            margin-bottom: 2em;
-        }
-
-        @include mq(bp(md)) {
-            margin: auto;
-        }
 }
 .parallax-wrapper::before {
     content:"";
@@ -43,13 +29,6 @@ body {
     position: absolute;
     z-index: -1;
     transform: translateZ(-1px) scale(2);
-    @include mq(bp(sm)) {
-            margin-bottom: 2em;
-        }
-
-        @include mq(bp(md)) {
-            margin: auto;
-        }
 }
 .regular-wrapper {
     width: 100vw;
@@ -58,13 +37,6 @@ body {
     background-image: url("../../assets/images/New.jpg");
     z-index: 2;
     position: relative;
-    @include mq(bp(sm)) {
-            margin-bottom: 2em;
-        }
-
-        @include mq(bp(md)) {
-            margin: auto;
-        }
 }
 .content {
     margin: 0 auto;
@@ -73,17 +45,27 @@ body {
     background: rgb(46, 44, 44);
     color: #fdfcfc;
     opacity: 0.65;
-    @include mq(bp(sm)) {
-            margin-bottom: 2em;
-        }
-
-        @include mq(bp(md)) {
-            margin: auto;
-        }
 }
 #pagebreak {
-        margin: -205px 0px 0px 0px;
+        margin: -335px 0px 0px 0px;
         opacity: 1;
+        
+        @include mq(bp(lg)) {
+            margin: -328px 0px 0px 0px;
+            position: absolute;
+            width: 90%;
+            font-size: 85%;
+        }
+        @include mq(bp(md)) {
+            margin: -328px 0px 0px 0px;
+            position: absolute;
+            width: 90%;
+            font-size: 63%;
+            @include mq(bp(sm)) {
+                margin: -355px 0px 0px 0px;
+                font-size: 63%;
+            }
+        }
     }
 .content-bottom {
     position: relative;
@@ -94,13 +76,6 @@ body {
     background: rgb(46, 44, 44);
     color: #fdfcfc;
     opacity: .98;
-    @include mq(bp(sm)) {
-            margin-bottom: 2em;
-        }
-
-        @include mq(bp(md)) {
-            margin: auto;
-        }
 }
 .content-top {
     justify-items: center;
@@ -111,6 +86,10 @@ body {
     background: rgb(46, 44, 44);
     color: #fdfcfc;
     opacity: 0.65;
+    @include mq(bp(xl)) {
+            margin-bottom: 2em;
+            width: 50%;
+        }
     @include mq(bp(lg)) {
             margin-bottom: 2em;
             width: 50%;
@@ -120,7 +99,7 @@ body {
             margin: auto;
             width: 50%;
         }
-        @include mq(bp(lg)) {
+        @include mq(bp(sm)) {
             margin: auto;
             width: 50%;
         }
@@ -128,13 +107,4 @@ body {
 .your-class {
     columns: 3;
     margin: 0px 200px 0px 200px;
-    @include mq(bp(sm)) {
-            margin-bottom: 2em;
-        }
-
-        @include mq(bp(md)) {
-            margin: auto;
-            position: absolute;
-            width: 50%;
-        }
 }
