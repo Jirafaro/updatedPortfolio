@@ -137,6 +137,7 @@ body {
     @include mq(bp(lg)) {
             margin-bottom: 2em;
             width: 50%;
+            font-size: 80%;
         }
 
         @include mq(bp(md)) {
