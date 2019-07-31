@@ -37,6 +37,9 @@ body {
     background-image: url("../../assets/images/New.jpg");
     z-index: 2;
     position: relative;
+    @include mq(bp(xl)) {
+            height: 177vh;
+        }
     @include mq(bp(lg)) {
             height: 250vh;
         }
@@ -88,14 +91,14 @@ body {
     color: #fdfcfc;
     opacity: .98;
     @include mq(bp(xl)) {
-            text-align: center;
-            width: 70%;
+            margin-bottom: 20%;
+            width: 18%;
+            padding-left:30px;
         }
     @include mq(bp(lg)) {
             margin: auto;
             width: 70%;
             text-align: center;
-            
         }
 
         @include mq(bp(md)) {

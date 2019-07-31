@@ -11,8 +11,9 @@ footer {
     background-color: rgb(46, 44, 44);
     box-shadow: 0 -8px 8px -7px red;
       @include mq(bp(xl)) {
+          position: relative;
             margin-bottom: 0px;
-            width: 50%;
+            width: 100%;
         }
     @include mq(bp(lg)) {
             margin-bottom: 0px;
