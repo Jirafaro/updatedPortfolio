@@ -113,6 +113,12 @@ body {
   position: relative;
 }
 
+@media screen and (max-width: 992px) {
+  .regular-wrapper {
+    height: 250vh;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .regular-wrapper {
     height: 250vh;
@@ -178,15 +184,16 @@ body {
 
 @media screen and (max-width: 1200px) {
   .content-bottom {
-    margin-bottom: 2em;
-    width: 50%;
+    text-align: center;
+    width: 70%;
   }
 }
 
 @media screen and (max-width: 992px) {
   .content-bottom {
-    margin-bottom: 2em;
-    width: 50%;
+    margin: auto;
+    width: 70%;
+    text-align: center;
   }
 }
 
@@ -287,15 +294,15 @@ footer {
 
 @media screen and (max-width: 1200px) {
   footer {
-    margin-bottom: 2em;
+    margin-bottom: 0px;
     width: 50%;
   }
 }
 
 @media screen and (max-width: 992px) {
   footer {
-    margin-bottom: 2em;
-    width: 50%;
+    margin-bottom: 0px;
+    width: 100%;
   }
 }
 
@@ -377,13 +384,6 @@ footer {
 @media screen and (max-width: 320px) {
   #img-text {
     font-size: 63%;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .img-group {
-    max-width: 150px;
-    max-height: 150px;
   }
 }
 

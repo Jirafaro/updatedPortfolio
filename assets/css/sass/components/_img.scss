@@ -21,8 +21,6 @@
 }
 .img-group {
     @include mq(bp(sm)) {
-                max-width: 150px;
-                max-height: 150px;
             }
             @include mq(bp(xs)) {
                 max-width: 150px;
