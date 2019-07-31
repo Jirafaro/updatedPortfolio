@@ -25,6 +25,15 @@ header {
             width:100%;
            text-align: center;
         }
+        @include mq(bp(sm)) {
+            margin: auto;
+            width: 50%;
+        }
+         @include mq(bp(xs)) {
+            margin: auto;
+            width: 100%;
+            margin-left: -18px;
+        }
     .container {
         display: flex;
         justify-content: space-between;

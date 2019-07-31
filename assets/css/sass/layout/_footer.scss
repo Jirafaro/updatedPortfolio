@@ -10,7 +10,31 @@ footer {
     border-top-right-radius: 1px;
     background-color: rgb(46, 44, 44);
     box-shadow: 0 -8px 8px -7px red;
-    
+      @include mq(bp(xl)) {
+            margin-bottom: 2em;
+            width: 50%;
+        }
+    @include mq(bp(lg)) {
+            margin-bottom: 2em;
+            width: 50%;
+        }
+
+        @include mq(bp(md)) {
+            margin: auto;
+            width: 50%;
+        }
+        @include mq(bp(sm)) {
+            margin: auto;
+            width: 50%;
+        }
+        @include mq(bp(xs)) {
+            position: relative;
+            width: 100%;
+            font-size: 50%;
+            padding: 20px;
+            margin-top: 10%;
+        }
+}
     .container {
         padding-left:20px;
         font-size: 18px;
@@ -18,7 +42,6 @@ footer {
         height: inherit;
         justify-content: space-between;
         align-items: center;
-    }
 }
 #footer-return {
     padding-right: 45%;
