@@ -32,16 +32,16 @@ body {
 }
 .regular-wrapper {
     width: 100vw;
-    height: 100vh;
+    height: 250vh;
     padding-top:20vh;
     background-image: url("../../assets/images/New.jpg");
     z-index: 2;
     position: relative;
     @include mq(bp(xl)) {
-            height: 177vh;
+            height: 250vh;
         }
     @include mq(bp(lg)) {
-            height: 250vh;
+            height: 210vh;
         }
     @include mq(bp(xs)) {
             height: 250vh;
@@ -85,32 +85,34 @@ body {
     position: relative;
     margin-bottom: 40%;
     margin: 0 auto;
-    padding: 20px;
-    width: 100%;
+    padding: 50px;
+    width: 10%;
     background: rgb(46, 44, 44);
     color: #fdfcfc;
     opacity: .98;
+    @include mq(bp(xxl)){
+        width:15%;
+    }
     @include mq(bp(xl)) {
             margin-bottom: 20%;
             width: 18%;
             padding-left:30px;
         }
     @include mq(bp(lg)) {
-            margin: auto;
-            width: 70%;
+            padding:35px;
+            width: 20%;
             text-align: center;
         }
 
         @include mq(bp(md)) {
-            margin: auto;
-            width: 50%;
+            width: 27%;
+            padding: 30px;
         }
         @include mq(bp(sm)) {
-            margin: auto;
             width: 50%;
         }
         @include mq(bp(xs)) {
-            margin: auto;
+        
             width: 50%;
             overflow: hidden;
             font-size: 50%;
@@ -144,6 +146,7 @@ body {
         @include mq(bp(sm)) {
             margin: auto;
             width: 50%;
+            font-size: 50%;
         }
         @include mq(bp(xs)) {
             margin: auto;
@@ -152,8 +155,4 @@ body {
             padding: 20px;
             margin-top: 10%;
         }
-}
-.your-class {
-    columns: 3;
-    margin: 0px 200px 0px 200px;
 }

@@ -27,7 +27,7 @@ header {
         }
         @include mq(bp(sm)) {
             margin: auto;
-            width: 50%;
+            width: 100%;
         }
          @include mq(bp(xs)) {
             margin: auto;
