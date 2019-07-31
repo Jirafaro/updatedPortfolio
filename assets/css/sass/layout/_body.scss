@@ -41,7 +41,7 @@ body {
             height: 250vh;
         }
     @include mq(bp(lg)) {
-            height: 210vh;
+            height: 247vh;
         }
     @include mq(bp(xs)) {
             height: 250vh;
@@ -92,6 +92,7 @@ body {
     opacity: .975;
     @include mq(bp(xxl)){
         width:15%;
+        padding: 30px;
     }
     @include mq(bp(xl)) {
             margin-bottom: 20%;
